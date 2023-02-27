@@ -1,80 +1,40 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="./css/style.css">
-    <title>Project A</title>
-    <style>
-      body {
-        background-image: url(https://wallpaperset.com/w/full/a/f/9/441804.jpg);
-        background-size: cover;
-        font-family: Arial, sans-serif;
-        color: white;
-      }
-
-      header {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 10px;
-        text-align: center;
-      }
-
-      h1 {
-        font-size: 3em;
-        margin: 0;
-        text-shadow: 2px 2px black;
-        color: #ffd700;
-      }
-
-      main {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        min-height: 80vh;
-      }
-
-      p {
-        font-size: 2em;
-        margin: 0;
-        text-shadow: 2px 2px black;
-        border: 2px solid black;
-        padding: 10px;
-        display: inline-block;
-      }
-
-      a {
-        font-size: 1.5em;
-        color: white;
-        text-decoration: none;
-      }
-
-      footer {
-        text-align: center;
-        font-size: 0.8em;
-        padding: 10px;
-        text-shadow: 2px 2px black;
-        border: 2px solid black;
-        display: inline-block;
-        margin-top: 50px;
-        padding: 10px;
-      }
-    </style>
+    <meta charset="UTF-8">
+    <title>Project AQUA</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <header>
-      <h1>Project A</h1>
+      <h1>Project AQUA</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
     </header>
     <main>
-      <form action="https://www.paypal.com/donate" method="post" target="_top">
-        <input type="hidden" name="hosted_button_id" value="QANR5ZHR42TZA" />
-        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-        <img alt="" border="0" src="https://www.paypal.com/en_ZA/i/scr/pixel.gif" width="1" height="1" />
-      </form>
-      <p>Pay $1 to see how many people paid $1.</p>
+      <section>
+        <h2>Welcome to Project AQUA</h2>
+        <p>Unlock the mystery and join us on Project AQUA. Discover the secrets of our innovative education project and support young minds on their journey to success.</p>
+        <form>
+          <label for="donate">Donate $1 to reveal how many have already joined our cause:</label>
+          <input type="text" id="donate" name="donate">
+          <input type="submit" value="Submit">
+        </form>
+        <p>Leave your email to stay connected and receive updates on our progress.</p>
+        <form>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email">
+          <input type="submit" value="Submit">
+        </form>
+      </section>
     </main>
     <footer>
-      <p>All funds raised will be used to forward the project of the minds of the young students in need with a desire to learn while also providing a service and entertainment. To learn more please donate :).</p>
+      <p>&copy; 2023 Project AQUA</p>
     </footer>
   </body>
 </html>
